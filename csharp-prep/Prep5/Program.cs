@@ -31,7 +31,7 @@ class Program
         Console.Write("Please enter your favorite number: ");
         int number = int.Parse(Console.ReadLine());
 
-        return number
+        return number;
     }
     static int SquaredNumber(int number)
     {
