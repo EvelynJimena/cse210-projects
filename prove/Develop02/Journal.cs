@@ -13,7 +13,7 @@ public class Journal
 
     public void Display()
     {
-        Console.WriteLine("\n______________ Journal Entries_____________ ");
+        Console.WriteLine("\n=========== Journal Entries ========== ");
         foreach (JournalEntry journalEntry in _journal)
         {
             journalEntry.Display();
@@ -28,19 +28,19 @@ public class Journal
             using (StreamWriter outputFile = new StreamWriter(fileName))
             {
                 File.CreateText(fileName);
-                outputFile.WriteLine(" _________________Journal Entries______________\n");
+                outputFile.WriteLine("Journal Entries\n");
                 foreach (JournalEntry journalEntry in _journal)
                 {
                     outputFile.WriteLine($"{journalEntry._dateTime}");
-                    outputFile.WriteLine($"Prompt: {journalEntry._journalPrompt}");
-                    outputFile.WriteLine($"Entry: {journalEntry._journalEntry}\n");
+                    outputFile.WriteLine($"-Prompt: {journalEntry._journalPrompt}");
+                    outputFile.WriteLine($"-Entry: {journalEntry._journalEntry}\n");
                 }
             }
-            Console.Write("\n** MyJournal.txt has been created! **\n");
+            Console.Write("\n-- MyJournal.txt has been created! --\n");
         }
         else
         {
-            Console.Write("\nxxxx MyJournal.txt already exits. xxxx\n");
+            Console.Write("\n**** MyJournal.txt already exits. ****\n");
             using (StreamWriter outputFile = new StreamWriter(fileName, append: true))
             {
                 foreach (JournalEntry journalEntry in _journal)

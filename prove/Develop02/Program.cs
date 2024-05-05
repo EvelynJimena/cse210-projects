@@ -10,7 +10,7 @@ class Program
 
         int[] validNumbers = { 1, 2, 3, 4, 5 };
         int action = 0;
-        Console.Write("\n -Welcome to the Journal Program!-\n");
+        Console.Write("\nWelcome to the Journal Program!\n");
         
         Journal journal = new Journal();
 
@@ -54,7 +54,7 @@ class Program
                     break;
                 case 5:
                 
-                    Console.WriteLine("\nThank you for using the Journal Program!\n");
+                    Console.WriteLine("\nThank you for use the Journal Program!\n");
                     break;
                 default:
                     Console.WriteLine("\nSorry that's not a valid choice!");
