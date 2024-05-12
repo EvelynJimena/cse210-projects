@@ -15,7 +15,7 @@ class Program
         scripture.LoadScriptures();
         Word word = new Word();
 
-        Console.Write("\n   -Welcome to the Scripture Memorizer Program-   \n");
+        Console.Write("\n   Welcome to the Scripture Memorizer Program   \n");
 
         int userChoice = 0;
 
@@ -43,10 +43,10 @@ class Program
                     word.Show(ref1);
                     break;
                 case 3:
-                    Console.WriteLine("\n________Thanks for playing!_______\n");
+                    Console.WriteLine("\n------------Thanks for playing! :D -----------\n");
                     break;
                 default:
-                    Console.WriteLine($"\nSorry, the option you entered is not valid.");
+                    Console.WriteLine($"\nXXXXX Sorry, the option you entered is not valid. XXXXXX");
                     break;
             }
         }
@@ -58,12 +58,12 @@ class Program
         Reference reference = new Reference();
 
         string choices = $@"
-_____________________________________________
+=============================================
 Please select one of the following choices:
 1. Display all availble scriptures references
 2. Randomly select scripture to work on
 Q. Quit
-_____________________________________________
+=============================================
 What would you like to do?  ";
 
         Console.Write(choices);

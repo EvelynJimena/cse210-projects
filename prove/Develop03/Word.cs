@@ -29,8 +29,8 @@ public class Word
     {
        _ref = ref1;
         Console.Clear();
-        Console.Write("\n[Press spacebar or enter to hide words] ");
-        Console.Write("\n[Press Q to Quit] \n");
+        Console.Write("\n*Press spacebar or enter to hide wordS* ");
+        Console.Write("\n*Press Q to Quit* \n");
 
         Console.WriteLine($"{_ref}");
         for (var i = 0; i < _result.Length; i++)
