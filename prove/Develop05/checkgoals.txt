@@ -1,0 +1,4 @@
+0
+Simple Goal:; Be More Kind; Kind; 3; False
+Eternal Goal:; Be More Active On My Callings; Callings; 3; False
+Check List Goal:; Do The Task On My House; House; 3; False; 3; 3; 0

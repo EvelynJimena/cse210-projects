@@ -5,7 +5,7 @@ public class MainMenu
 
     private string _menu = $@"
 Main Menu Options
-===========================================
+___________________________________________
 Please select one of the following options:
 1. Create New Goal
 2. List Goals
@@ -13,7 +13,7 @@ Please select one of the following options:
 4. Load Goals
 5. Record Goal Event
 6. Quit
-===========================================
+___________________________________________
 Select an option from the menu:  ";
 
     public string _userInput;
